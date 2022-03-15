@@ -1,19 +1,10 @@
 #include "main.h"
-
 /**
- * print_alphabet - prints alphabet -- Lower case.
- *
- * Return: Always 0.
+* use print_alphabet function to print a to z
  */
 int main()
 {
-	char alphs;
-
-	for (alphs = 'a'; alphs <= 'z'; alphs++)
-	{
-		_putchar(alphs);
-	}
-
-	_putchar('\n');
-	return (0);
+    print_alphabet();
+    return 0;
 }
+
