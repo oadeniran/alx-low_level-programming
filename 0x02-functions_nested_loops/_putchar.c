@@ -6,7 +6,7 @@
 * Return on success : 1
 * on failure -1 is returned and the errno stapp
 */
-int _putcahr(char c)
+int _putchar(char c)
 {
     return(write(1,&c,1));
 }
