@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_alphabet - prints alphabet -- Lower case.
@@ -7,11 +7,11 @@
  */
 int print_alphabet(void)
 {
-	char Alphs;
+	char alphs;
 
-	for (Alphs = 'a'; Alphs <= 'z'; Alphs++)
+	for (alphs = 'a'; alphs <= 'z'; Alphs++)
 	{
-		_putchar(Alphs);
+		_putchar(alphs);
 	}
 
 	_putchar('\n');
