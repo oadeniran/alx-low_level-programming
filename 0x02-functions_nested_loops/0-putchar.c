@@ -3,9 +3,12 @@
  *print out _putcahar
  */
 
-char str[] = "_putchar";
-for(int i = 0; str[i] != '\0'; i++)
+int main()
 {
-    _putchar(str[i]);
-    _putchar('\n');
+    char str[] = "_putchar";
+    for(int i = 0; str[i] != '\0'; i++)
+    {
+        _putchar(str[i]);
+        _putchar('\n');
+    }
 }
