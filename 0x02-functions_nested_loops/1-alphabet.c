@@ -7,17 +7,13 @@
  */
 int main()
 {
-	int print_alphabet(void)
+	char alphs;
+
+	for (alphs = 'a'; alphs <= 'z'; alphs++)
 	{
-		char alphs;
-
-		for (alphs = 'a'; alphs <= 'z'; alphs++)
-		{
-			_putchar(alphs);
-		}
-
-		_putchar('\n');
-		return (0);
+		_putchar(alphs);
 	}
-	print_alphabet();
+
+	_putchar('\n');
+	return (0);
 }
