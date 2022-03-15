@@ -3,4 +3,4 @@
 * use print_alphabet function to print a to z
  */
 
-print_alphabet();
+int print_alphabet();
