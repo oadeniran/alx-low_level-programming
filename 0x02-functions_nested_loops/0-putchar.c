@@ -3,7 +3,7 @@
  *print out _putcahar
  */
 
-int main
+int main()
 {
     char str[] = "_putchar";
 
