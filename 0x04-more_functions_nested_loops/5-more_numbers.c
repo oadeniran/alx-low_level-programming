@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * more_numbers - function prints 1 to 14
  * Return: 0
